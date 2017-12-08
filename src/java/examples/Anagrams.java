@@ -1,6 +1,10 @@
 import java.util.Arrays;
-import  java.util.Scanner;
-class Anagrams{
+import java.util.Scanner;
+/**
+  Anagram Example.
+  @author Suman Gupta
+*/
+class Anagrams {
     public static boolean anagramExample(String str1,String str2){
         if (str1.length()!= str2.length()){
             return false;
@@ -14,10 +18,11 @@ class Anagrams{
             
         }
     }
+
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         String l=sc.next();
         String l2=sc.next();
         System.out.println(Anagrams.anagramExample(l,l2));
     }
-    }
+}
