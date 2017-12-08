@@ -1,3 +1,7 @@
+/**
+ The classes are for demonstarting reverse list example.
+ @author Suman Gupta
+*/
 class Node{
     int data;
     Node next;
